@@ -3,7 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Whendil — Privacy Policy</title>
+<title>WHENDIL — Privacy Policy</title>
+<!--
+  REDIRECT ONLY. The canonical WHENDIL privacy policy lives at
+  https://dabeege.com/whendil/privacy/ and is edited in
+  dabeege-site/whendil/privacy/index.html — edit that, not this file.
+
+  Why this became a redirect (2026-11-02, BJ's call):
+  this file held a full SECOND COPY of the policy, last updated 9 July 2026,
+  describing crash reports as "anonymous diagnostic data" and disclosing no
+  analytics, no PostHog, no approximate location and none of the fields sent
+  with in-app feedback — while the canonical copy (20 October 2026) discloses
+  all of them. The two copies had not merely drifted apart; they had drifted
+  by four months, in the direction that matters, on the app with paying
+  customers.
+
+  It was unreachable only because whendil.dabeege.com has no DNS record. One
+  DNS record would have put two contradictory privacy policies live at once.
+  aislepro-site was converted to redirects on 2026-08-31 for exactly this
+  reason, after its two copies disagreed about whether the app stored prices;
+  WHENDIL's never was.
+
+  Deleting the file instead of redirecting would 404 any stray link to this
+  subdomain — a support note, an email footer, an old listing edit. A redirect
+  keeps every URL working with one document to maintain.
+-->
+<link rel="canonical" href="https://dabeege.com/whendil/privacy/">
+<meta http-equiv="refresh" content="0; url=https://dabeege.com/whendil/privacy/">
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -17,67 +43,24 @@
     body { background: #111; color: #f2f2f2; }
     a { color: #7ab8ff; }
   }
-  header {
-    padding: 32px 24px;
-    background: #263238;
-    color: #fff;
-  }
+  header { padding: 32px 24px; background: #263238; color: #fff; }
   header a { color: #fff; text-decoration: none; opacity: 0.85; }
   header nav { margin-top: 8px; }
   header nav a { margin-right: 16px; font-size: 0.9rem; }
   h1 { margin: 0; font-size: 1.8rem; }
-  main {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 32px 24px 64px;
-  }
-  h2 { font-size: 1.15rem; margin-top: 2em; }
-  .meta { opacity: 0.65; font-size: 0.9rem; }
-  ul { padding-left: 1.3em; }
-  li { margin-bottom: 0.5em; }
+  main { max-width: 700px; margin: 0 auto; padding: 32px 24px 64px; }
 </style>
 </head>
 <body>
 <header>
-  <nav><a href="/">Whendil</a></nav>
+  <nav><a href="https://dabeege.com/whendil/">WHENDIL</a></nav>
   <h1>Privacy Policy</h1>
 </header>
 <main>
-  <p class="meta">WHENDIL — Last updated July 9, 2026</p>
-
-  <p>WHENDIL ("we", "our", or "the app") is a simple elapsed-time tracker that helps you remember when you last did things. This policy explains what information we collect, how we use it, and your choices.</p>
-
-  <h2>Information We Collect</h2>
-  <p>When you create an account, we collect:</p>
-  <ul>
-    <li><strong>Email address</strong> — used to identify your account and send magic link sign-in emails.</li>
-    <li><strong>Name and profile picture</strong> — only if you sign in with Google or Apple and those services share them. We do not require or display these.</li>
-  </ul>
-  <p>When you use the app, we store:</p>
-  <ul>
-    <li><strong>Tracker data</strong> — the names of your trackers, completion timestamps, reminder settings, categories, and priority flags you create.</li>
-    <li><strong>App preferences</strong> — theme, accent color, notification mode, and other settings stored on your device.</li>
-  </ul>
-  <p>We also collect:</p>
-  <ul>
-    <li><strong>Crash reports</strong> — if the app crashes, anonymous diagnostic data is sent to Sentry to help us fix bugs. This does not include your tracker content.</li>
-  </ul>
-
-  <h2>How We Use Your Information</h2>
-  <ul>
-    <li>To provide the app's core functionality (storing and syncing your trackers).</li>
-    <li>To send local push notifications for reminders you configure.</li>
-    <li>To diagnose and fix crashes and bugs.</li>
-  </ul>
-  <p>We do not sell your data. We do not use your data for advertising.</p>
-
-  <h2>Third-Party Services</h2>
-  <ul>
-    <li><strong>Supabase</strong> — our backend database and authentication provider. Your account and tracker data are stored on Supabase servers. See <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</li>
-    <li><strong>Google Sign-In</strong> — optional sign-in method on Android and web. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
-    <li><strong>Apple Sign In</strong> — optional sign-in method on iOS and web. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
-    <li><strong>Sentry</strong> — crash reporting. See <a href="https://sentry.io/privacy/">sentry.io/privacy</a>.</li>
-  </ul>
+  <p>WHENDIL's privacy policy has moved to
+    <a href="https://dabeege.com/whendil/privacy/">dabeege.com/whendil/privacy</a>.</p>
+  <p>You should be redirected automatically. If not, follow the link above.</p>
 </main>
+<script>location.replace("https://dabeege.com/whendil/privacy/");</script>
 </body>
 </html>
